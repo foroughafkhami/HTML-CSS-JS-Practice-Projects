@@ -42,3 +42,15 @@
   border-radius: 100px;
 }
 ```
+
+4- Creative Image Hover Effect
+
+- To clip the image use website:
+  https://bennettfeely.com/clippy/
+- Clip-path
+
+```css
+.container:hover .clip {
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+```
